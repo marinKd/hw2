@@ -143,7 +143,7 @@ class MyQueue extends LinkedList{
 class Main{
 	public static void main(String[] args) throws Exception{
 		//reads in files
-		String[] myFiles = new String[]{"week1.csv","week2.csv","week3.csv","week4.csv","week5.csv"};
+		String[] myFiles = new String[]{"./data/week1.csv","./data/week2.csv","./data/week3.csv","./data/week4.csv","./data/week5.csv"};
 		MyQueue[] allTheWeeks = new MyQueue[5];
 		PrintStream output = new PrintStream(new File("output.txt"));
 		//files parsed through
